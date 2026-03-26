@@ -1,0 +1,80 @@
+import { Mail, MapPin, Phone } from "lucide-react";
+
+const Footer = () => {
+  return (
+    <footer className="bg-primary py-16">
+      <div className="container mx-auto px-6">
+        <div className="grid md:grid-cols-4 gap-10">
+          <div className="md:col-span-2">
+            <h3
+              className="text-xl font-bold text-primary-foreground mb-4"
+              style={{ fontFamily: "var(--font-heading)" }}
+            >
+              SRIVEN<span className="text-gradient">PROS</span>
+            </h3>
+            <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-md">
+              SrivenPros is a premier IT staffing company delivering quality
+              consultants across all areas of technology to commercial,
+              government, and non-profit organizations worldwide.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-semibold text-primary-foreground uppercase tracking-wider mb-4">
+              Quick Links
+            </h4>
+            <ul className="space-y-2.5">
+              {["About", "Services", "Values", "Clients", "Contact"].map((l) => (
+                <li key={l}>
+                  <a
+                    href={`#${l.toLowerCase()}`}
+                    className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors"
+                  >
+                    {l}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-semibold text-primary-foreground uppercase tracking-wider mb-4">
+              Contact
+            </h4>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-2">
+                <Mail size={16} className="text-accent mt-0.5 shrink-0" />
+                <a
+                  href="mailto:info@srivenpros.com"
+                  className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors"
+                >
+                  info@srivenpros.com
+                </a>
+              </li>
+              <li className="flex items-start gap-2">
+                <Phone size={16} className="text-accent mt-0.5 shrink-0" />
+                <span className="text-sm text-primary-foreground/50">
+                  +1 (555) 123-4567
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <MapPin size={16} className="text-accent mt-0.5 shrink-0" />
+                <span className="text-sm text-primary-foreground/50">
+                  United States
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-primary-foreground/10 text-center">
+          <p className="text-xs text-primary-foreground/40">
+            © {new Date().getFullYear()} SrivenPros. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
