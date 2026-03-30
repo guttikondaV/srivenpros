@@ -18,7 +18,7 @@ const team = [
   },
   {
     name: "Ken Ropiak",
-    title: "Senior Program Manager & Business Development",
+    title: "Board of Advisor",
     photo: teamKen,
     bio: "Ken brings a wealth of expertise as a Senior Program/PMP Project Manager, Certified Scrum Master, CSPO, Six Sigma Green Belt, Solutions Architect, and Business Development Executive. His versatile skill set and proven track record in delivering complex programs make him a valuable strategic asset to SrivenPros' growth and client success.",
   },
