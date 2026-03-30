@@ -51,10 +51,12 @@ const AboutSection = () => {
           >
             <div className="rounded-2xl overflow-hidden shadow-elevated">
               <img
-                src="https://images.squarespace-cdn.com/content/v1/670d7e2e0a144f5894898156/aa77e57a-194d-4129-a906-04682fdf007e/image+1.jpg"
-                alt="SrivenPros team collaboration"
+                src={aboutImage}
+                alt="Diverse SrivenPros team collaborating in a modern office"
                 className="w-full h-80 md:h-[28rem] object-cover"
                 loading="lazy"
+                width={1024}
+                height={768}
               />
             </div>
             <div className="absolute -bottom-6 -left-6 rounded-xl bg-primary p-6 shadow-elevated hidden md:block">
