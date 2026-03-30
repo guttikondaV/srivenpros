@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
+import aboutTeam from "@/assets/about-team.jpg";
 
 const features = [
   "Quality consultants cleared by our technical recruiting team",
