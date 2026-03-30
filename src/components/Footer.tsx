@@ -54,13 +54,13 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <Phone size={16} className="text-accent mt-0.5 shrink-0" />
                 <span className="text-sm text-primary-foreground/50">
-                  +1 (555) 123-4567
+                  (630) 635-0553 ext. 101
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="text-accent mt-0.5 shrink-0" />
                 <span className="text-sm text-primary-foreground/50">
-                  United States
+                  MOI Business Suites, 776 Illinois Route 59, Suite 191-K, Naperville, IL
                 </span>
               </li>
             </ul>
