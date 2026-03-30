@@ -77,8 +77,8 @@ const CTASection = () => {
             <div className="space-y-5">
               {[
                 { icon: Mail, label: "info@srivenpros.com", href: "mailto:info@srivenpros.com" },
-                { icon: Phone, label: "+1 (555) 123-4567", href: "tel:+15551234567" },
-                { icon: MapPin, label: "United States" },
+                { icon: Phone, label: "(630) 635-0553 ext. 101", href: "tel:+16306350553" },
+                { icon: MapPin, label: "MOI Business Suites, 776 Illinois Route 59, Suite 191-K, Naperville, IL" },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-secondary/15">
