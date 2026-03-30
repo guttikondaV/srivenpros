@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
+import aboutTeam from "@/assets/about-team.jpg";
 
 const features = [
   "Quality consultants cleared by our technical recruiting team",
@@ -51,9 +52,11 @@ const AboutSection = () => {
           >
             <div className="rounded-2xl overflow-hidden shadow-elevated">
               <img
-                src="https://images.squarespace-cdn.com/content/v1/670d7e2e0a144f5894898156/aa77e57a-194d-4129-a906-04682fdf007e/image+1.jpg"
-                alt="SrivenPros team collaboration"
+                src={aboutTeam}
+                alt="Diverse SrivenPros team collaborating in modern office"
                 className="w-full h-80 md:h-[28rem] object-cover"
+                width={1024}
+                height={768}
                 loading="lazy"
               />
             </div>
