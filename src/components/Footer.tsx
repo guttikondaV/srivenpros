@@ -13,9 +13,9 @@ const Footer = () => {
               SRIVEN<span className="text-gradient">PROS</span>
             </h3>
             <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-md">
-              SrivenPros is a premier IT staffing company delivering quality
-              consultants across all areas of technology to commercial,
-              government, and non-profit organizations worldwide.
+              SrivenPros is a premier talent partner delivering IT, Artificial
+              Intelligence, and Machine Learning consultants to commercial and
+              non-profit organizations building the future of intelligent business.
             </p>
           </div>
 

@@ -1,42 +1,42 @@
 import { motion } from "framer-motion";
-import { Users, Briefcase, Code, Monitor, Database, Cloud } from "lucide-react";
+import { Users, Brain, Code, Bot, Database, Cloud } from "lucide-react";
 
 const services = [
   {
     icon: Users,
-    title: "Staff Augmentation",
+    title: "IT & AI Staff Augmentation",
     description:
-      "Scale your team with pre-vetted IT professionals who integrate seamlessly into your existing workflows and culture.",
+      "Scale your teams with pre-vetted IT, AI, and ML professionals who integrate seamlessly into your workflows and culture.",
   },
   {
-    icon: Briefcase,
-    title: "Practice Development",
+    icon: Brain,
+    title: "AI & Machine Learning",
     description:
-      "Build and grow your technology practice with strategic staffing and consulting tailored to your organizational goals.",
+      "Engage ML engineers, data scientists, and applied researchers to design, train, and deploy production-grade AI models.",
   },
   {
     icon: Code,
-    title: "Software Development",
+    title: "Software & GenAI Development",
     description:
-      "Access skilled developers across full-stack, frontend, backend, and mobile development for your critical projects.",
+      "Access full-stack engineers and Generative AI specialists building LLM-powered apps, copilots, and intelligent automation.",
   },
   {
-    icon: Monitor,
-    title: "Quality Assurance",
+    icon: Bot,
+    title: "MLOps & AI Quality",
     description:
-      "Ensure product excellence with experienced QA engineers specializing in manual and automated testing methodologies.",
+      "Operationalize AI with experts in MLOps, model monitoring, evaluation, and responsible-AI quality assurance.",
   },
   {
     icon: Database,
-    title: "Data & Analytics",
+    title: "Data Engineering & Analytics",
     description:
-      "Leverage data-driven decisions with consultants expert in data engineering, business intelligence, and analytics.",
+      "Turn data into decisions with engineers skilled in modern data platforms, vector databases, BI, and analytics.",
   },
   {
     icon: Cloud,
-    title: "Cloud & DevOps",
+    title: "Cloud & AI Infrastructure",
     description:
-      "Modernize your infrastructure with cloud architects and DevOps engineers across AWS, Azure, and GCP platforms.",
+      "Modernize infrastructure with architects experienced in AWS, Azure, GCP, and GPU/AI platform engineering.",
   },
 ];
 
@@ -57,8 +57,8 @@ const ServicesSection = () => {
             Our Services
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive IT staffing solutions designed to meet the evolving needs
-            of modern enterprises.
+            End-to-end IT, AI, and Machine Learning talent solutions designed to
+            meet the evolving needs of modern, AI-first enterprises.
           </p>
         </motion.div>
 

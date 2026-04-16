@@ -71,7 +71,7 @@ const CTASection = () => {
               <span className="text-gradient">Real Impact.</span>
             </h2>
             <p className="text-lg text-primary-foreground/70 max-w-lg mb-10 leading-relaxed">
-              Ready to find the right IT talent for your organization? Fill out the form and our team will get back to you within 24 hours.
+              Ready to find the right IT, AI, or ML talent for your organization? Share your needs and our team will respond within 24 hours.
             </p>
 
             <div className="space-y-5">

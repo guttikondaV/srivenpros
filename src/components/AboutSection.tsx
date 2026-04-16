@@ -3,10 +3,10 @@ import { CheckCircle } from "lucide-react";
 import aboutImage from "@/assets/about-diverse-team.jpg";
 
 const features = [
-  "Quality consultants cleared by our technical recruiting team",
-  "Virtual Availability List with diverse skill sets",
-  "Rapid placement — consultants available ASAP",
-  "Commercial, Government & Non-Profit expertise",
+  "AI/ML engineers and IT consultants vetted by our technical recruiting team",
+  "Curated availability list spanning data science, MLOps, and full-stack skills",
+  "Rapid placement — specialized consultants available on demand",
+  "Commercial, Non-Profit & Enterprise AI transformation expertise",
 ];
 
 const AboutSection = () => {
@@ -24,14 +24,15 @@ const AboutSection = () => {
               About Us
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 leading-tight">
-              Trusted IT Staffing Partner for{" "}
-              <span className="text-gradient">Global Organizations</span>
+              Trusted IT, AI & ML Talent Partner for{" "}
+              <span className="text-gradient">Modern Enterprises</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              SrivenPros is a premier IT staffing company providing quality
-              consultants across all areas of technology. Our diverse clientele
-              benefits from tailored solutions that address unique challenges
-              and drive growth across multiple regions worldwide.
+              SrivenPros is a premier talent partner specializing in IT, Artificial
+              Intelligence, and Machine Learning consulting. We deliver
+              high-caliber experts who help organizations build, scale, and
+              operationalize intelligent systems — driving measurable outcomes
+              across commercial and non-profit sectors.
             </p>
             <ul className="space-y-4">
               {features.map((f) => (
