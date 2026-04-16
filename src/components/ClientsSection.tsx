@@ -39,8 +39,8 @@ const ClientsSection = () => {
             Our Clients
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Partnering with industry leaders across commercial, government, and
-            non-profit sectors.
+            Partnering with industry leaders to deliver IT, AI, and ML talent
+            across commercial and non-profit sectors.
           </p>
         </motion.div>
 

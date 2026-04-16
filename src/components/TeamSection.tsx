@@ -41,8 +41,8 @@ const TeamSection = () => {
             Meet Our Team
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            The people driving SrivenPros' mission to deliver excellence in IT
-            staffing.
+            The people driving SrivenPros' mission to deliver excellence in IT,
+            AI, and ML talent.
           </p>
         </motion.div>
 

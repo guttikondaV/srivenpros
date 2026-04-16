@@ -6,13 +6,13 @@ const values = [
     icon: Target,
     title: "Customer Focus",
     description:
-      "We prioritize understanding our clients' specific IT staffing needs, ensuring we match the right talent with the right role.",
+      "We deeply understand each client's IT, AI, and ML talent needs, ensuring the right expert is matched to the right initiative.",
   },
   {
     icon: Award,
     title: "Quality",
     description:
-      "Our rigorous screening process ensures only the best candidates are selected, delivering high-quality IT professionals.",
+      "Our rigorous technical screening guarantees only top-tier IT, AI, and ML practitioners join our roster.",
   },
   {
     icon: Heart,
@@ -30,7 +30,7 @@ const values = [
     icon: Rocket,
     title: "Excellence",
     description:
-      "Through continuous improvement, we ensure our staffing solutions are always a step ahead in meeting your IT talent needs.",
+      "We continuously evolve our practice to stay ahead of the rapidly advancing AI, ML, and technology landscape.",
   },
 ];
 
