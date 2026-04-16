@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { Users, Brain, Code, Bot, Database, Cloud } from "lucide-react";
+import { Users, Brain, Code, Bot, Database, Cloud, ShieldCheck } from "lucide-react";
 
 const services = [
   {
     icon: Users,
-    title: "IT & AI Staff Augmentation",
+    title: "IT, AI & Cyber Staff Augmentation",
     description:
-      "Scale your teams with pre-vetted IT, AI, and ML professionals who integrate seamlessly into your workflows and culture.",
+      "Scale your teams with pre-vetted IT, AI, ML, and cybersecurity professionals who integrate seamlessly into your workflows and culture.",
   },
   {
     icon: Brain,
@@ -19,6 +19,12 @@ const services = [
     title: "Software & GenAI Development",
     description:
       "Access full-stack engineers and Generative AI specialists building LLM-powered apps, copilots, and intelligent automation.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Cybersecurity & Risk",
+    description:
+      "Protect your enterprise with experts in SecOps, zero-trust, cloud security, threat detection, and AI-driven security operations.",
   },
   {
     icon: Bot,
@@ -57,8 +63,8 @@ const ServicesSection = () => {
             Our Services
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            End-to-end IT, AI, and Machine Learning talent solutions designed to
-            meet the evolving needs of modern, AI-first enterprises.
+            End-to-end IT, AI, Machine Learning, and Cybersecurity talent
+            solutions designed for modern, AI-first and security-conscious enterprises.
           </p>
         </motion.div>
 

@@ -25,7 +25,7 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <span className="inline-block rounded-full border border-secondary/40 bg-secondary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-secondary-foreground/90 mb-6">
-              IT • AI • ML Staffing Excellence
+              IT • AI • ML • Cybersecurity Excellence
             </span>
           </motion.div>
 
@@ -49,9 +49,9 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.5 }}
             className="text-lg md:text-xl text-primary-foreground/70 max-w-xl mb-10 leading-relaxed"
           >
-            SrivenPros connects top-tier IT, AI, and Machine Learning talent with
-            leading organizations across commercial, non-profit, and other sectors —
-            powering the next generation of intelligent enterprises.
+            SrivenPros connects top-tier IT, AI, Machine Learning, and
+            Cybersecurity talent with leading organizations across commercial,
+            non-profit, and other sectors — powering secure, intelligent enterprises.
           </motion.p>
 
           <motion.div

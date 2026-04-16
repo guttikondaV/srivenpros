@@ -3,10 +3,10 @@ import { CheckCircle } from "lucide-react";
 import aboutImage from "@/assets/about-diverse-team.jpg";
 
 const features = [
-  "AI/ML engineers and IT consultants vetted by our technical recruiting team",
-  "Curated availability list spanning data science, MLOps, and full-stack skills",
+  "AI/ML, IT, and cybersecurity consultants vetted by our technical recruiting team",
+  "Curated availability list spanning data science, MLOps, SecOps, and full-stack skills",
   "Rapid placement — specialized consultants available on demand",
-  "Commercial, Non-Profit & Enterprise AI transformation expertise",
+  "Commercial, Non-Profit & Enterprise AI and security transformation expertise",
 ];
 
 const AboutSection = () => {
@@ -24,15 +24,15 @@ const AboutSection = () => {
               About Us
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 leading-tight">
-              Trusted IT, AI & ML Talent Partner for{" "}
+              Trusted IT, AI, ML & Cybersecurity Talent Partner for{" "}
               <span className="text-gradient">Modern Enterprises</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              SrivenPros is a premier talent partner specializing in IT, Artificial
-              Intelligence, and Machine Learning consulting. We deliver
-              high-caliber experts who help organizations build, scale, and
-              operationalize intelligent systems — driving measurable outcomes
-              across commercial and non-profit sectors.
+              SrivenPros is a premier talent partner specializing in IT,
+              Artificial Intelligence, Machine Learning, and Cybersecurity
+              consulting. We deliver high-caliber experts who help organizations
+              build, scale, secure, and operationalize intelligent systems —
+              driving measurable outcomes across commercial and non-profit sectors.
             </p>
             <ul className="space-y-4">
               {features.map((f) => (
