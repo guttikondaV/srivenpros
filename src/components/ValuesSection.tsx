@@ -6,13 +6,13 @@ const values = [
     icon: Target,
     title: "Customer Focus",
     description:
-      "We deeply understand each client's IT, AI, and ML talent needs, ensuring the right expert is matched to the right initiative.",
+      "We deeply understand each client's IT, AI, ML, and cybersecurity talent needs, ensuring the right expert is matched to the right initiative.",
   },
   {
     icon: Award,
     title: "Quality",
     description:
-      "Our rigorous technical screening guarantees only top-tier IT, AI, and ML practitioners join our roster.",
+      "Our rigorous technical screening guarantees only top-tier IT, AI, ML, and security practitioners join our roster.",
   },
   {
     icon: Heart,

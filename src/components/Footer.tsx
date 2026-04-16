@@ -14,8 +14,8 @@ const Footer = () => {
             </h3>
             <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-md">
               SrivenPros is a premier talent partner delivering IT, Artificial
-              Intelligence, and Machine Learning consultants to commercial and
-              non-profit organizations building the future of intelligent business.
+              Intelligence, Machine Learning, and Cybersecurity consultants to
+              commercial and non-profit organizations building secure, intelligent businesses.
             </p>
           </div>
 
