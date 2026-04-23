@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import demoQr from "@/assets/aims-demo-qr.png";
 import {
   ShieldCheck,
   Zap,
@@ -167,13 +168,34 @@ const ProductSection = () => {
               Get a personalized 20-minute walkthrough with our certified
               experts. Zero obligation, zero pressure.
             </p>
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-secondary px-6 py-3 text-sm font-semibold text-secondary-foreground transition-transform hover:scale-105"
-            >
-              Request a Demo
-              <ArrowRight size={16} />
-            </a>
+            <div className="flex flex-col sm:flex-row items-center gap-5">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfRRdlTMiZzL2tQnpKrjeSuDTdactgi35gf3ilTkSqmPtBwKw/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-secondary px-6 py-3 text-sm font-semibold text-secondary-foreground transition-transform hover:scale-105"
+              >
+                Request a Demo
+                <ArrowRight size={16} />
+              </a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfRRdlTMiZzL2tQnpKrjeSuDTdactgi35gf3ilTkSqmPtBwKw/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-1.5 group"
+                aria-label="Scan QR code to request an AIMS demo"
+              >
+                <img
+                  src={demoQr}
+                  alt="QR code linking to the AIMS demo request form"
+                  className="h-24 w-24 rounded-md border border-border/60 bg-background p-1.5 transition-transform group-hover:scale-105"
+                  loading="lazy"
+                />
+                <span className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
+                  Scan to request
+                </span>
+              </a>
+            </div>
           </motion.div>
         </div>
       </div>
