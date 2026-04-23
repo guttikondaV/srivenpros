@@ -16,7 +16,7 @@ const features = [
     icon: Zap,
     title: "Automated Access Lifecycle",
     description:
-      "Eliminate manual effort with smart role recommendations and zero-touch provisioning — from onboarding to offboarding.",
+      "Eliminate manual effort with smart role recommendations and auto provisioning — from onboarding to offboarding.",
   },
   {
     icon: ShieldCheck,
