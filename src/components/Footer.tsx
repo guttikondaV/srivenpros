@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import logo from "@/assets/srivenpros-logo.png";
 
 const Footer = () => {
   return (
@@ -6,12 +7,15 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
-            <h3
-              className="text-xl font-bold text-primary-foreground mb-4"
-              style={{ fontFamily: "var(--font-heading)" }}
-            >
-              SRIVEN<span className="text-gradient">PROS</span>
-            </h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img src={logo} alt="SrivenPros logo" className="h-12 w-auto brightness-0 invert" />
+              <h3
+                className="text-xl font-bold text-primary-foreground"
+                style={{ fontFamily: "var(--font-heading)" }}
+              >
+                SRIVEN<span className="text-gradient">PROS</span>
+              </h3>
+            </div>
             <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-md">
               SrivenPros is a premier talent partner delivering IT, Artificial
               Intelligence, Machine Learning, and Cybersecurity consultants to

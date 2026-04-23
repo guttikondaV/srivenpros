@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/srivenpros-logo.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -33,9 +34,14 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <a href="#home" className="flex items-center gap-2">
+        <a href="#home" className="flex items-center gap-2.5">
+          <img
+            src={logo}
+            alt="SrivenPros logo"
+            className={`h-10 w-auto transition-all ${scrolled ? "" : "brightness-0 invert"}`}
+          />
           <span
-            className={`text-2xl font-bold tracking-tight ${
+            className={`text-xl font-bold tracking-tight hidden sm:inline ${
               scrolled ? "text-primary" : "text-primary-foreground"
             }`}
             style={{ fontFamily: "var(--font-heading)" }}
